@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c783f9485a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="margin-top: 0px">
+    <header>
+      <nav class="block-nav constraint">
+        <img class="nav__logo" src="images/logo.png" alt="" />
+        <i
+          class="icon icon1 icon--white fas fa-bars toggle-menu collapsible"
+        ></i>
+        <i class="icon icon2 icon--white fas fa-search"></i>
+
+        <ul class="list list--inline list--white collapsible__content">
+          <a href=""> <li class="list__item">Home</li> </a>
+          <a href=""> <li class="list__item">Services</li> </a>
+          <a href=""> <li class="list__item">Portfolio</li> </a>
+          <a href=""> <li class="list__item">About</li> </a>
+          <a href=""> <li class="list__item">Pricing</li> </a>
+          <a href=""> <li class="list__item">Contact</li> </a>
+        </ul>
+      </nav>
+    </header>
+    <section class="block-landing">
+      <i
+        class="icon icon1 icon--white fas fa-angle-left change-background fa-2x"
+      ></i>
+      <i
+        class="icon icon2 icon--white fas fa-angle-right change-background fa-2x"
+      ></i>
+
+      <div class="grid grid--1x2 grid--1x3">
+        <div class="landing">
+          <span class="temp"></span>
+          <div class="landing__header">
+            <h1 class="landing__heading">
+              Hello World! <br />
+              We Are Kasper We Make Art.
+            </h1>
+            <p class="landing__text">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+              sem. Mauris blandit aliquet elit, eget tincidunt.
+            </p>
+          </div>
+        </div>
+      </div>
+      <ul class="list list--inline list--bullets list--white">
+        <li class="list__item"></li>
+        <li class="list__item"></li>
+        <li class="list__item"></li>
+      </ul>
+    </section>
+    <section class="block-services block constraint">
+      <div class="block__header">
+        <h2 class="block__heading">Services</h2>
+        <p class="block__text">
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+      <div class="block__body">
+        <div class="grid grid--1x2">
+          <div class="media media--flex">
+            <i class="icon icon--dark fas fa-desktop fa-3x"></i>
+            <div class="media__body">
+              <h3 class="media__heading">Vorem amet intuitive</h3>
+              <p class="media__description">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <!-- ** -->
+          <div class="media media--flex">
+            <i class="icon icon--dark fas fa-cog fa-3x"></i>
+            <div class="media__body">
+              <h3 class="media__heading">Vorem amet intuitive</h3>
+              <p class="media__description">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <!-- ** -->
+          <div class="media media--flex">
+            <i class="icon icon--dark fas fa-pencil-ruler fa-3x"></i>
+            <div class="media__body">
+              <h3 class="media__heading">Vorem amet intuitive</h3>
+              <p class="media__description">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <!-- ** -->
+          <div class="media media--flex">
+            <i class="icon icon--dark fas fa-camera fa-3x"></i>
+            <div class="media__body">
+              <h3 class="media__heading">Vorem amet intuitive</h3>
+              <p class="media__description">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <!-- ** -->
+        </div>
+      </div>
+    </section>
+    <section class="block-design">
+      <div class="grid grid--1x2">
+        <div class="block-design__phone">
+          <img src="images/mobile.png" alt="" />
+        </div>
+        <div class="block-design__info">
+          <h2 class="info__heading">OUR DESIGNS COMES WITH...</h2>
+          <ul class="list list--icon list--white">
+            <li class="list__item">Responsive Design</li>
+            <li class="list__item">Modern And Clean Design</li>
+            <li class="list__item">Clean Code</li>
+            <li class="list__item">Browser Friendly</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="block-portfolio block">
+      <div class="constraint">
+        <div class="block__header">
+          <h2 class="block__heading">portfolio</h2>
+          <p class="block__text">
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="block__body">
+          <ul class="list list--inline list--dark">
+            <li class="list__item list--white">All</li>
+            <li class="list__item">App</li>
+            <li class="list__item">Photo</li>
+            <li class="list__item">Web</li>
+            <li class="list__item">Print</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block-portfolio__imgs">
+        <div class="grid grid--1x2 grid--1x4">
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-01.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-02.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-03.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-04.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-05.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-06.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-07.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+
+          <div class="block-portfolio__img">
+            <div class="icon-container icon-container--primary">
+              <i class="fa-solid fa-plus fa-2x"></i>
+            </div>
+            <img src="images/shuffle-08.jpg" alt="" />
+
+            <figcaption class="block-portfolio__caption">
+              <h3 class="caption__heading">Awesome Image</h3>
+              <p class="caption__text">Photography</p>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn--15x2 btn--primary">more</button>
+    </section>
+    <section class="block-video">
+      <video autoplay loop muted src="videos/awesome-video.mp4"></video>
+      <div class="block-video__info">
+        <h2 class="info__heading">SUPER AWESOME VIDEO HERE</h2>
+        <p class="info__text">Its All You Need</p>
+        <button class="btn btn--1x2 btn--black">see more</button>
+      </div>
+    </section>
+    <section class="block-about block constraint">
+      <div class="block__header">
+        <h2 class="block__heading">about us</h2>
+        <p class="block__text">
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+      <div class="block__body">
+        <img src="images/about.png" alt="" />
+      </div>
+    </section>
+    <section class="block-stat">
+      <div class="grid grid--1x2 grid--1x4 constraint">
+        <div class="media media--num">
+          <div class="icon-container icon-container--dark">
+            <i class="icon icon--white fas fa-mug-hot"></i>
+          </div>
+          <div class="media__body">
+            <h3 class="media__heading">1.236</h3>
+            <p class="media__description">Coffee Drinks</p>
+          </div>
+        </div>
+        <div class="media media--num">
+          <div class="icon-container icon-container--dark">
+            <i class="icon icon--white far fa-folder"></i>
+          </div>
+          <div class="media__body">
+            <h3 class="media__heading">256</h3>
+            <p class="media__description">Completed Projects</p>
+          </div>
+        </div>
+        <div class="media media--num">
+          <div class="icon-container icon-container--dark">
+            <i class="icon icon--white far fa-envelope"></i>
+          </div>
+          <div class="media__body">
+            <h3 class="media__heading">1,743</h3>
+            <p class="media__description">Mail Sent</p>
+          </div>
+        </div>
+        <div class="media media--num">
+          <div class="icon-container icon-container--dark">
+            <i class="icon icon--white fas fa-trophy"></i>
+          </div>
+          <div class="media__body">
+            <h3 class="media__heading">17</h3>
+            <p class="media__description">Awards Received</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block-test-skill block">
+      <div class="grid grid--1x2 constraint">
+        <div class="testimonials">
+          <div class="testimonials__header">
+            <h3 class="testimonials__heading">testimonials</h3>
+            <p class="testimonials__text">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt.
+            </p>
+          </div>
+          <div class="media media--flex">
+            <img class="testimonials__img" src="images/skills-01.jpg" alt="" />
+            <div class="media__body">
+              <p class="media__heading">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt.
+              </p>
+              <span class="media__description"> John Doe, CEO </span>
+            </div>
+          </div>
+          <!-- ** -->
+          <div class="media media--flex">
+            <img class="testimonials__img" src="images/skills-02.jpg" alt="" />
+            <div class="media__body">
+              <p class="media__heading">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt.
+              </p>
+              <span class="media__description"> John Doe, CEO </span>
+            </div>
+          </div>
+          <!-- ** -->
+          <ul class="list list--inline list--bullets list--small">
+            <li class="list__item"></li>
+            <li class="list__item"></li>
+            <li class="list__item"></li>
+          </ul>
+        </div>
+        <div class="skills">
+          <div class="skills__header">
+            <h3 class="skills__heading">skills</h3>
+            <p class="skills__text">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Mauris blandit aliquet elit, eget tincidunt.
+            </p>
+          </div>
+          <h4 class="skill__heading">adobe</h4>
+          <div class="box-container box-container1">
+            <div class="box"></div>
+          </div>
+          <h4 class="skill__heading">html & css</h4>
+          <div class="box-container box-container2">
+            <div class="box"></div>
+          </div>
+          <h4 class="skill__heading">javascript</h4>
+          <div class="box-container box-container3">
+            <div class="box"></div>
+          </div>
+          <h4 class="skill__heading">php</h4>
+          <div class="box-container box-container4">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block-quotes">
+      <div class="quote constraint">
+        <q
+          >accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+          elit, eget tincidunt.
+        </q>
+        <span>John Doe </span>
+      </div>
+    </section>
+    <section class="block-pricing block constraint">
+      <div class="block__header">
+        <h2 class="block__heading">pricing</h2>
+        <p class="block__text">
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+      <div class="block__body">
+        <div class="grid grid--1x2 grid--1x3 grid--1x4">
+          <div class="plan">
+            <div class="plan__header">
+              <h3 class="plan__heading">basic</h3>
+              <span class="plan__price">19</span>
+            </div>
+
+            <div class="plan__body">
+              <ul class="list list--center list--dark">
+                <li class="list__item">Feature No 1</li>
+                <li class="list__item">Extra Feature</li>
+                <li class="list__item">Extra Feature No 2</li>
+                <li class="list__item">Feature</li>
+              </ul>
+              <a href="" class="btn btn--2x2 btn--outline">buy now</a>
+            </div>
+          </div>
+          <!-- ****************** -->
+          <div class="plan">
+            <div class="plan__header">
+              <h3 class="plan__heading">premium</h3>
+              <span class="plan__price">29</span>
+            </div>
+
+            <div class="plan__body">
+              <ul class="list list--center list--dark">
+                <li class="list__item">Feature No 1</li>
+                <li class="list__item">Extra Feature</li>
+                <li class="list__item">Extra Feature No 2</li>
+                <li class="list__item">Feature</li>
+              </ul>
+              <a href="" class="btn btn--2x2 btn--outline">buy now</a>
+            </div>
+          </div>
+          <!-- ****************** -->
+          <div class="plan">
+            <div class="plan__header">
+              <h3 class="plan__heading">pro</h3>
+              <span class="plan__price">39</span>
+            </div>
+
+            <div class="plan__body">
+              <ul class="list list--center list--dark">
+                <li class="list__item">Feature No 1</li>
+                <li class="list__item">Extra Feature</li>
+                <li class="list__item">Extra Feature No 2</li>
+                <li class="list__item">Feature</li>
+              </ul>
+              <a href="" class="btn btn--2x2 btn--outline">buy now</a>
+            </div>
+          </div>
+          <!-- ****************** -->
+          <div class="plan">
+            <div class="plan__header">
+              <h3 class="plan__heading">platinum</h3>
+              <span class="plan__price">49</span>
+            </div>
+
+            <div class="plan__body">
+              <ul class="list list--center list--dark">
+                <li class="list__item">Feature No 1</li>
+                <li class="list__item">Extra Feature</li>
+                <li class="list__item">Extra Feature No 2</li>
+                <li class="list__item">Feature</li>
+              </ul>
+              <a href="" class="btn btn--2x2 btn--outline">buy now</a>
+            </div>
+          </div>
+          <!-- ****************** -->
+        </div>
+        <p class="block-pricing__contact">
+          Contact us if you have special request
+        </p>
+        <button class="btn btn--15x3 btn--primary">contact us</button>
+      </div>
+    </section>
+    <section class="block-subscribe">
+      <div class="grid grid--1x2 constraint">
+        <form class="form">
+          <div class="form-container">
+            <i class="icon icon--white far fa-envelope"></i>
+            <input type="email" name="Email" placeholder="Your Email" />
+          </div>
+          <input class="submit" type="submit" value="subscribe" />
+        </form>
+        <p class="block-subscribe__text">
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blan dit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+    </section>
+    <section class="block-contact block constraint">
+      <div class="block__header">
+        <h2 class="block__heading">contact us</h2>
+        <p class="block__text">
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+      <div class="block__body">
+        <div class="grid grid--1x2">
+          <form class="form">
+            <input type="text" name="Name" placeholder="Your Name" />
+            <input type="email" name="Email" placeholder="Your Email" />
+            <textarea
+              name="Message"
+              id=""
+              placeholder="Your Message"
+            ></textarea>
+            <input class="submit" type="submit" value="SEND MESSAGE" />
+          </form>
+          <div class="form-info">
+            <h4 class="form-info__heading">GET IN TOUCH</h4>
+            <span class="form-info__num"> +00 123.456.789</span
+            ><span class="form-info__num">+00 123.456.789 </span>
+
+            <h4 class="form-info__heading">WHERE WE ARE</h4>
+            <address class="address">
+              Awesome Address 17 <br />
+              New York, NYC<br />
+              123-4567-890<br />
+              USA
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="block-footer">
+      <div class="footer constraint">
+        <img class="footer__img" src="images/logo.png" alt="" />
+        <p class="footer__text">WE ARE SOCIAL</p>
+        <i class="icon icon--white fab fa-facebook-f"></i>
+        <i class="icon icon--white fab fa-twitter"></i>
+        <i class="icon icon--white fas fa-home"></i>
+        <i class="icon icon--white fab fa-linkedin"></i>
+        <p class="footer__copyright">
+          © 2022 <span class="my-name">Bensadok Ishak,</span>
+          <span class="Kasper">Kasper</span> All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
