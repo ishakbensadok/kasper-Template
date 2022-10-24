@@ -1194,8 +1194,7 @@ body {
   font-size: 20px;
 }
 .block-nav .icon1 {
-  margin-right: 20px;
-  padding-right: 40px;
+  margin-right: 60px;
   cursor: pointer;
 }
 
@@ -1251,24 +1250,7 @@ body {
     height: 100%;
   }
 }
-/* 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 /* block landing */
 
 .block-landing {
