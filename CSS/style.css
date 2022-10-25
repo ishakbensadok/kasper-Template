@@ -463,8 +463,8 @@ body {
   position: absolute;
   top: -100px;
   left: 50%;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   cursor: pointer;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -479,16 +479,16 @@ body {
   z-index: 2555;
 }
 .block-portfolio__img:hover .icon-container {
-  top: 50px;
+  top: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .block-portfolio .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .block-portfolio .icon-container {
-    width: 80px;
-    height: 80px;
+
+  .block-portfolio__img:hover .icon-container {
+    top: 50px;
   }
 }
 @media screen and (max-width: 767px) {
