@@ -1328,6 +1328,7 @@ body {
   padding: 50px;
   position: relative;
   display: flex;
+      justify-content: flex-end;
 }
 .landing .temp {
   flex-grow: 1;
